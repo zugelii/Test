@@ -38,7 +38,18 @@ int main()
     close(sock_fd);
     return 0;
   }
+<<<<<<< HEAD
   printf("add change in the smartgit\r\n");
+=======
+
+  printf("add message 3 in the branch2_Smartgit\r\n");
+  printf("add message2 in the branch2_Smartgit\r\n");
+  printf("add message in the branch2_Smartgit\r\n");
+  printf("add change in the smartgit\r\n");
+
+  printf("add message in the branch_1 2\r\n");
+
+>>>>>>> 4ad2c21... adfas
   printf("Bind socket");
 
   fromlen =sizeof(from);
