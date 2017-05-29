@@ -38,6 +38,7 @@ int main()
     close(sock_fd);
     return 0;
   }
+  printf("add change in the smartgit\r\n");
   printf("Bind socket");
 
   fromlen =sizeof(from);
