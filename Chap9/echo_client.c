@@ -23,14 +23,7 @@ int main()
 	printf("add commit1 in the branch_1\r\n");
 	printf("add commit2 in the branch_1\r\n");
 	printf("add commit3 in the branch_1\r\n");
-	
-	printf("add commit1 in the branch_1_2\r\n");
-	printf("add commit2 in the branch_1_2\r\n");
-
-	printf("add commit3 in the branch_1_2\r\n");
-
 	printf("add commit4 in the branch_1_2\r\n");
-
   /* ´´½¨socket */
   sock_fd = socket(AF_INET, SOCK_STREAM, 0);
   if(sock_fd==-1) {
