@@ -20,6 +20,7 @@ int main()
   socklen_t len;
   int n, i;
 	printf("add branch_1\r\n");
+	printf("add commit1 in the branch_1\r\n");
   /* ´´½¨socket */
   sock_fd = socket(AF_INET, SOCK_STREAM, 0);
   if(sock_fd==-1) {
