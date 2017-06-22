@@ -22,12 +22,10 @@ int main()
 	printf("add branch_1\r\n");
 	printf("add commit1 in the branch_1\r\n");
 	printf("add commit2 in the branch_1\r\n");
-<<<<<<< HEAD
 	printf("add commit3 in the branch_1\r\n");
 	printf("add commit4 in the branch_1_2\r\n");
-=======
 	printf("add commit in the enlogic local branch"\r\n");
->>>>>>> origin/enlogic_local_branch1
+	printf("add commit 2 in the enlogic local branch"\r\n");
   /* ´´½¨socket */
   sock_fd = socket(AF_INET, SOCK_STREAM, 0);
   if(sock_fd==-1) {
