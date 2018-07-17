@@ -10,3 +10,4 @@ B
 ii
 
 git push origin HEAD:master
+smart git push to branch_1
